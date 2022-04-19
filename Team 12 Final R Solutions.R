@@ -3,7 +3,6 @@
 ################################################################################
 rm(list = ls())
 set.seed(1)
-setwd('C:/Users/vabea/Documents/MSBA/Spring Classes/Machine Learning 2/Team Projects/Final Project Home Credit Risk')
 
 df = read.csv('application_train.csv', stringsAsFactors = T)
 summary(df)
